@@ -2,5 +2,6 @@ pgadmin-data
 postgres-data
 
 node_modules
+package-lock.json
 
 .env
