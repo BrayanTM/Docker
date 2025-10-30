@@ -1,0 +1,6 @@
+pgadmin-data
+postgres-data
+
+node_modules
+
+.env
