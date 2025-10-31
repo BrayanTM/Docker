@@ -30,3 +30,13 @@ Ejecutar este comando:
 ```
 docker compose -f docker-compose.prod.yml build
 ```
+
+### Build y Push a Docker Hub
+```
+docker buildx build --platform linux/amd64,linux/arm64 -t brayantm/teslo-shop-backend:2.6.0 --push .
+```
+
+### Build y Push a Digital Ocean
+```
+docker buildx build --platform linux/amd64,linux/arm64 -t registry.digitalocean.com/josecode-registry/teslo-shop-backend:2.6.0 --push .
+```

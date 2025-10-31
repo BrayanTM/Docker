@@ -5,7 +5,7 @@ services:
       target: ${STAGE}
       dockerfile: Dockerfile
 
-    image: brayantm/teslo-shop-backend:2.5.0
+    image: brayantm/teslo-shop-backend:2.6.0
 
     container_name: nest-app
     ports:

@@ -555,6 +555,16 @@ Los contenedores se detendrán y la red se removerá.
 docker compose down
 ```
 
+## Docker Compose Build
+
+Construir una imagen desde docker compose.
+
+```
+docker compose -f <docker-compose> build
+docker compose -f docker-compose.prod.yml build app
+docker compose -f docker-compose.prod.yml run
+```
+
 ## Best Practices
 
 ### Escaneo de imagen
